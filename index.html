@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .navigation {
+            color: crimson;
+            
+        }
+        li{
+            display:inline;
+        }
+
+        p {
+            background-color: darkorange;
+        }
+
+    
+    </style>
+
+</head>
+
+<body>
+    <header>
+        
+        <h1 style=" text-align: center;
+        color: brown;">
+        welcome to the website</h1>
+
+        <nav>
+            <ul>
+
+                <li>
+                    <a class="navigation" href="">home</a>
+                </li>
+                <li>
+                    <a class="navigation" href="">about us</a>
+                </li>
+                <li>
+                    <a class="navigation" href="">contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p style="background-color: darkviolet;">
+            what is your Name?
+        </p>
+        <p style="background-color: deeppink;">what is your age?</p>
+        <p style="background-color: gold;">whats kind of food do you like?</p>
+        <p style="background-color: green;">How much do you weight?</p>
+        <p>
+            The food we eat gives our bodies the "information" and materials they need to function properly. If we don't
+            get the right information, our metabolic processes suffer and our health declines.
+        </p>
+
+    </main>
+    <footer>
+        &copy; foodies
+
+    </footer>
+    <script>
+        let Name = prompt('what\'s your name?');
+
+        console.log('this is for the name', Name);
+
+        alert('welcome ' + Name);
+
+        let age = prompt('what\'s your age?');
+
+        console.log(age);
+
+
+        alert('hi there, ' + Name + ' your age is ' + age + ' good to meet you');
+
+        let wight = prompt('what\'s your weight?');
+
+        console.log(wight);
+
+
+        alert('hi there, ' + Name + ' your age is ' + age +' you have ' + weight + ' kg ' + ' good to meet you');
+
+        let food = prompt('whats kind of food do you like?');
+
+
+        alert('hi there, ' + Name + ' ,your age is ' + age + ' you have ' + weight + ' kg ' +'your fav food is ' + food + ' nice to meet you');
+    </script>
+</body>
+
+</html>
